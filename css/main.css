@@ -41,3 +41,8 @@ body {
 	text-decoration: underline;
 	color: red;
 }
+
+#Polk-Pic{
+	float:left;
+	padding-right: 10px;
+}
