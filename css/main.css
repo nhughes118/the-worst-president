@@ -65,3 +65,10 @@ body {
 #Polk-Pic img:hover {
 	content: url('img/evil-polk.jpg');
 } */
+
+
+.accomplishments {
+	display: block;
+	padding: 20px;
+	clear: both;
+}
