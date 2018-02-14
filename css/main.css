@@ -9,6 +9,11 @@ body {
 	background-color: #e8e8e8;
 }
 
+img.pres-pic{
+	height: 186px;
+	width: 142px;
+}
+
 /* NAVIGATION BAR */
 .nav-bar {
 	overflow: hidden;
