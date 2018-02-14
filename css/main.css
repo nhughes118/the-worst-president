@@ -4,8 +4,9 @@
 
 body {
 	font: normal 16px Georgia, Arial, sans-serif;
-	padding-top: 170px;
+	padding: 170px 5px 5px 5px;
 	color: green;
+	background-color: #e8e8e8;
 }
 
 /* NAVIGATION BAR */
@@ -62,15 +63,49 @@ body {
 	padding-right: 10px;
 }
 
-/* change picture on hover
-#Polk-Pic img:hover {
-	content: url('img/evil-polk.jpg');
-} */
-
-
 .accomplishments {
 	display: block;
-	padding: 20px;
-	margin: 10px;
+	margin: 10px 0px;
 	clear: both;
+}
+
+@media all and (min-width:940px){
+	body {
+		padding-top: 70px;
+	}
+	
+	#Polk-Pic{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#site-title {
+		float: left;
+	}
+	
+	#site-title a:hover {
+		text-decoration: none;
+		background-color: #2a333e;
+		color: #f2f2f2;
+	}
+	
+	.nav-bar ul li {
+		float: right;
+	}
+	
+	.accomplishments{
+		text-align: center;
+	}
+	
+	#main-text {
+		text-align: center;
+		padding-top: 5px;
+	}
+	
+	.nav-bar a:hover {
+		text-decoration: none;
+		background-color: red;
+		color: white;
+	}
 }
