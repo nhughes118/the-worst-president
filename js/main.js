@@ -1,13 +1,21 @@
+
+var goodPrez = document.getElementsByClassName("good-president");
+for (var i = 0; i < goodPrez.length; i++) {
+    goodPrez[i].addEventListener('click', makeGood);
+}
+
+var badPrez = document.getElementsByClassName("bad-president");
+for (var i = 0; i < badPrez.length; i++) {
+    badPrez[i].addEventListener('click', makeBad);
+}
+
 function makeGood(){
-    document.getElementById("polk-pic").src ="img/good-polk.jpg";
-    
+    document.getElementById("polk-pic").src ="img/good-polk.jpg";  
     var hero = document.getElementById("hero");
     var demon = document.getElementById("demon");
     hero.style.color ="blue";
     hero.style.fontWeight = "bold";
     setTimeout(returnToNormal, 3000);
-
-
 }
 
 function makeBad(){
@@ -17,7 +25,6 @@ function makeBad(){
     demon.style.color ="red";
     demon.style.fontWeight = "bold";
     setTimeout(returnToNormal, 3000);
-
 }
 
 function returnToNormal(){
