@@ -46,3 +46,8 @@ body {
 	float:left;
 	padding-right: 10px;
 }
+
+/* change picture on hover
+#Polk-Pic img:hover {
+	content: url('img/evil-polk.jpg');
+} */
