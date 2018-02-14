@@ -76,5 +76,6 @@ body {
 .accomplishments {
 	display: block;
 	padding: 20px;
+	margin: 10px;
 	clear: both;
 }
