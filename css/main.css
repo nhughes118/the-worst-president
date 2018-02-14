@@ -82,8 +82,15 @@ img.pres-pic{
 
 .accomplishments {
 	display: block;
-	margin: 10px 0px;
+	margin: 15px 0px;
 	clear: both;
+}
+
+.accomplishments ul li {
+	margin: 10px 5px;
+	font-style: italic;
+	font-size: 1.10em;
+	color: #ac4343;
 }
 
 #main-text {
