@@ -42,6 +42,18 @@ body {
 	color: red;
 }
 
+.article-heading h1{
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+.article-heading h2{
+	text-align: center;
+	font-size: 2em;
+	color: red;
+	margin-bottom: 10px;
+}
+
 #Polk-Pic{
 	float:left;
 	padding-right: 10px;
