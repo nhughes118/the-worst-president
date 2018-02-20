@@ -97,6 +97,27 @@ img.pres-pic{
 	margin-bottom: 30px;
 }
 
+
+/*contact form css*/
+
+.contact form{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	border: 1px blue solid;
+	border-radius: 10px;
+	padding: 20px 3%;
+}
+.contact form textarea{
+	margin: 5px auto;
+	width: 95%;
+	height: 100px;
+}
+.contact form label{
+	display:block;
+	margin-bottom: 25px;
+}
+
 @media all and (min-width:940px){
 	body {
 		padding-top: 70px;
@@ -121,6 +142,8 @@ img.pres-pic{
 	.nav-bar ul li {
 		float: right;
 	}
+
+
 	
 	.accomplishments{
 		text-align: center;
@@ -137,3 +160,4 @@ img.pres-pic{
 		color: white;
 	}
 }
+
